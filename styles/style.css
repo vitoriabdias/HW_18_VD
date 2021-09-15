@@ -9,18 +9,33 @@ body, button {
 /* Background */
 .image-corner-right {
     position: absolute;
-    top: -86px;
-    right: -124px;
+    top: 0px;
+    right: -80px;
+    width: 33%;
 }
 .image-corner-left {
     position: absolute;
-    top: -173px;
-    left: -173px;
+    top: 0px;
+    left: 0;
+    width: 17%;
 }
 .image-line {
     position: absolute;
-    left: -10%;
-    top: 100px;
+    left: -35px;
+    top: 160px;
+    width: 103%;
+}
+.image-left-bottom {
+    position: absolute;
+    left: -432px;
+    bottom: -100px;
+    width: 50%;
+}
+.image-right-bottom {
+    position: absolute;
+    bottom: -100px;
+    right: -510px;
+    width: 50%;
 }
 /* Content Main */
 main {
@@ -73,13 +88,13 @@ a:hover, .about-me button {
 }
 .about-me h1 {
     color: #414141;
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 400;
     margin: 0px 0px 70px 0px;
 }
 .about-me h2 {
     color: #414141;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     margin: 0px 0px 70px 0px;
 }
@@ -122,13 +137,65 @@ a:hover, .about-me button {
 .pictures .picture-4:hover {
     transform: scale(1.2);
 }
+.case-study__tittle {
+    color: #414141;
+    font-weight: 400;
+    font-size: 50px;
+    position: absolute;
+    top: 118px;
+}
+.case-study {
+    width: 60%;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+img.case-study-1 {
+    top: 260px;
+    position: absolute;
+}
+img.case-study-2 {
+    top: 260px;
+    position: absolute;
+    left: 400px;
+}
+img.case-study-3 {
+    top: 260px;
+    position: absolute;
+    left: 800px;
+}
 .responsive {
     width: 100%;
     height: auto;
   }
+.case-study__tittle__ny{
+    color: #414141;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    top: 270px;
+    left: 255px;
+  }
+  .case-study__tittle__clapper{
+    color: #414141;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    top: 270px;
+    left: 661px;
+  } 
+  .case-study__tittle__safe{
+    color: #414141;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    top: 270px;
+    left: 1060px;
+  }
 /*My Skills*/
 .my-skills {
-    margin-top: 200px;
+    margin-top: 855px;
+    width: 110%;
 }
 .my-skills__list-sections{
     display: flex;
@@ -151,7 +218,7 @@ a:hover, .about-me button {
 .my-skills__section-description {
     color: #414141;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 22px;
 }
 /*My Tools*/
 .my-tools {
@@ -171,16 +238,6 @@ footer {
 footer ul{
     width: 50%;
     justify-content: space-between;
-}
-.image-left-bottom {
-    position: absolute;
-    bottom: -200px;
-    left: -600px;
-}
-.image-right-bottom {
-    position: absolute;
-    bottom: -283px;
-    right: -695px;
 }
 .fit {
     max-width: 99%;
