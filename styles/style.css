@@ -231,7 +231,7 @@ img.case-study-3 {
     justify-content: space-between;
 }
 /*Footer*/
-footer {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -244,4 +244,60 @@ footer ul{
     max-width: 99%;
     max-height: 99%;
   }
-  
+  /* Style all font awesome icons */
+  section.fa {
+    /* display: flex; */
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    right: -287px;
+    position: absolute;
+}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 60%;
+  }
+  .fa .fa-facebook:hover {
+    background: #567C9F;
+    color: white;
+  }
+  .fa .fa-instagram:hover {
+    background: #8BAFA2;
+    color: white;
+    }
+    .fa .fa-linkedin:hover {
+        background: #15476B;
+        color: white;
+    }
+    .fa .fa-behance:hover {
+        background: #D3B379;
+        color: white;
+    }
+  .fa-facebook {
+    background: #AEAEAE;
+    color: white;
+    height: 20px;
+    width: 20px;
+  }
+  .fa-instagram {
+    background: #AEAEAE;
+    color: white;
+    height: 20px;
+    width: 20px;
+  }
+  .fa-linkedin {
+    background: #AEAEAE;
+    color: white;
+    height: 20px;
+    width: 20px;
+  }
+  .fa-behance {
+    background: #AEAEAE;
+    color: white;
+    height: 20px;
+    width: 20px;
+  }
