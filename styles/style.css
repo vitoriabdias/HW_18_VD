@@ -29,12 +29,12 @@ body, button {
 .image-left-bottom {
     position: absolute;
     left: -432px;
-    bottom: -100px;
+    bottom: -200px;
     width: 50%;
 }
 .image-right-bottom {
     position: absolute;
-    bottom: -100px;
+    bottom: -200px;
     right: -510px;
     width: 50%;
 }
@@ -64,7 +64,7 @@ a {
     text-decoration: none;
     color: #414141;
 }
-a, .about-me button {
+a, .about-me button, .case-study button, .case-study-2 button, .case-study-3 button {
     text-decoration: none;
         color: #414141;
         border: 1px solid #ffffff00;
@@ -101,6 +101,11 @@ a:hover, .about-me button {
 }
 .about-me button {
     background-color: white;
+    cursor: pointer;
+}
+.about-me button:hover {
+    background-color: #414141;
+    color: white;
     cursor: pointer;
 }
 .pictures {
@@ -143,27 +148,90 @@ a:hover, .about-me button {
     font-weight: 400;
     font-size: 50px;
     position: absolute;
-    top: 118px;
+    top: 76px;
 }
 .case-study {
-    width: 60%;
+    width: 111%;
     position: absolute;
     justify-content: space-between;
-    margin-top: 95px;
+    margin-top: 119px;
 }
 img.case-study-1 {
     top: 260px;
     position: absolute;
 }
+.case-study button {
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #414141;  
+    position: absolute;
+    top: 565px;
+    left: 204px;
+}
+.case-study button:hover{
+    background-color: #414141;
+    color: white;
+}
+.case-study__description__ny{
+    color: #414141;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 70px 0px;
+    position: absolute;
+    top: 365px;
+    left: 204px;
+}
 img.case-study-2 {
     top: 260px;
     position: absolute;
-    left: 400px;
+    left: 376px;
+}
+.case-study-2 button {
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #414141;  
+    position: absolute;
+    top: 565px;
+    left: 578px;
+}
+.case-study-2 button:hover{
+    background-color: #414141;
+    color: white;
+}
+.case-study__description__clapper{
+    color: #414141;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 70px 0px;
+    position: absolute;
+    top: 355px;
+    left: 578px;
 }
 img.case-study-3 {
     top: 260px;
     position: absolute;
-    left: 800px;
+    left: 787px;
+}
+.case-study-3 button {
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #414141;  
+    position: absolute;
+    top: 565px;
+    left: 990px;
+}
+.case-study-3 button:hover{
+    background-color: #414141;
+    color: white;
+}
+.case-study__description__safe{
+    color: #414141;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 70px 0px;
+    position: absolute;
+    top: 355px;
+    left: 990px;
 }
 .responsive {
     width: 100%;
@@ -174,28 +242,28 @@ img.case-study-3 {
     font-weight: 700;
     font-size: 22px;
     position: absolute;
-    top: 270px;
-    left: 255px;
+    top: 239px;
+    left: 204px;
   }
   .case-study__tittle__clapper{
     color: #414141;
     font-weight: 700;
     font-size: 22px;
     position: absolute;
-    top: 270px;
-    left: 661px;
+    top: 239px;
+    left: 578px;
   } 
   .case-study__tittle__safe{
     color: #414141;
     font-weight: 700;
     font-size: 22px;
     position: absolute;
-    top: 270px;
-    left: 1060px;
+    top: 239px;
+    left: 990px;
   }
 /*My Skills*/
 .my-skills {
-    margin-top: 855px;
+    margin-top: 880px;
     width: 110%;
 }
 .my-skills__list-sections{
